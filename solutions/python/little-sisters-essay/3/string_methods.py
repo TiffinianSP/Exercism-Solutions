@@ -1,0 +1,1 @@
+capitalize_title, check_sentence_ending, clean_up_spacing, replace_word_choice = lambda t : t.title(), lambda s : s.endswith("."), lambda s : s.strip(), lambda s, o, n : s.replace(o, n)
